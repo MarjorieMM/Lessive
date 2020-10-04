@@ -1,0 +1,85 @@
+/* Formatage container */
+.container {
+	width: 724px;
+	background-color: #e4dfa4;
+	padding: 25px;
+	box-sizing: border-box;
+}
+/* Formatage du titre */
+.header {
+	background-color: black;
+	border: 1px solid black;
+	border-top-right-radius: 150px 2em;
+}
+.title {
+	font-family: ChunkFive, Geneva, Tahoma, sans-serif;
+	color: white;
+	margin: 5px;
+}
+/*  Formatage du bloc contenu */
+
+.content {
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+}
+
+/*  Formatage des 3 colonnes */
+
+/*  Première colonne avec image et liste à puces */
+.col1 {
+	padding-right: 25px;
+	width: 210px;
+}
+.white-background {
+	background-color: white;
+	display: flex;
+}
+.image-lessive {
+	margin: 20px auto;
+}
+
+.info {
+	white-space: nowrap;
+	margin-bottom: 0;
+}
+
+.col1 > div > ul {
+	padding-left: 20px;
+}
+.col1 > div > ul > li {
+	list-style-image: url("images/etoile.png");
+	padding-left: 0;
+	padding-bottom: 10px;
+}
+
+/*  Deuxième colonne */
+.col2 {
+	padding-right: 29px;
+	width: 260px;
+}
+.red {
+	color: #680000;
+	margin: 0;
+}
+
+/* Troisième colonne avec bouton sur le côté */
+.side {
+	width: 150px;
+}
+
+.button {
+	text-align: center;
+	background-color: #cabf3e;
+	border: 1px solid white;
+	border-radius: 5%;
+	padding: 10px;
+}
+.button > a {
+	text-decoration: none;
+	color: #680000;
+}
+
+.button:hover {
+	background-color: #928f69;
+}
